@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "606858288288",
+    "firebase_url": "https://realestateabd-8e69c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "realestateabd-8e69c",
+    "storage_bucket": "realestateabd-8e69c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606858288288:android:b0a647457d892a3f463dc5",
+        "android_client_info": {
+          "package_name": "com.example.admin_panel_nayzak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGACtV5MEFG-kIAXaXHzqCQOEA7tYtRbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606858288288:android:587180265e4c1da3463dc5",
+        "android_client_info": {
+          "package_name": "com.example.realestate_abd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGACtV5MEFG-kIAXaXHzqCQOEA7tYtRbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

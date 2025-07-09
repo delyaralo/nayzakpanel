@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Cairo', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+  direction: rtl;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* RTL specific styles */
+.MuiDataGrid-columnHeaders {
+  direction: rtl !important;
+}
+
+.MuiDataGrid-cell {
+  direction: rtl !important;
+}
+
+.MuiDialog-paper {
+  direction: rtl !important;
+}
+
+/* Custom styles for Material-UI components */
+.MuiButton-contained {
+  text-transform: none !important;
+  font-weight: 600 !important;
+}
+
+.MuiTypography-h4 {
+  font-weight: 700 !important;
+}
+
+.MuiTypography-h6 {
+  font-weight: 600 !important;
+}
+
+/* Custom styles for the sidebar */
+.MuiDrawer-paper {
+  background-color: #1a237e !important;
+}
+
+/* Custom styles for the navbar */
+.MuiAppBar-root {
+  background-color: white !important;
+  color: #1a237e !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+/* Custom styles for cards */
+.MuiCard-root {
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+}
+
+/* Custom styles for dialogs */
+.MuiDialog-paper {
+  border-radius: 12px !important;
+}
+
+/* Custom styles for form fields */
+.MuiTextField-root {
+  margin-bottom: 16px !important;
+}
+
+/* Custom styles for buttons */
+.MuiButton-root {
+  border-radius: 8px !important;
+}
+
+/* Custom styles for data grid */
+.MuiDataGrid-root {
+  border-radius: 12px !important;
+  overflow: hidden !important;
+}
+
+.MuiDataGrid-columnHeaders {
+  background-color: #f5f5f5 !important;
+}
+
+/* Custom styles for switches */
+.MuiSwitch-root {
+  margin-right: 8px !important;
+}
+
+/* Custom styles for ratings */
+.MuiRating-root {
+  direction: ltr !important;
+} 
